@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.piramide {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.bloque {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  margin: 5px;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+
+.bloque:hover {
+  transform: scale(1.1);
+}
